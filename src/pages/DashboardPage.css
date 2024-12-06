@@ -1,0 +1,20 @@
+/* src/pages/DashboardPage.css */
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .task-column {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .task-column h3 {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
