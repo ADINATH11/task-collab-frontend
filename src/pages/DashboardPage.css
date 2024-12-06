@@ -1,20 +1,76 @@
-/* src/pages/DashboardPage.css */
 .dashboard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Styling for the controls (Board and Filter) */
+  .dashboard-controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .control-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .control-group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .control-group select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Task Columns */
+  .task-columns {
     display: flex;
     gap: 20px;
-    padding: 20px;
   }
   
   .task-column {
-    flex: 1;
+    flex: 1 1 30%; /* Fixed size for columns */
     border: 1px solid #ddd;
-    padding: 10px;
     border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height:600px; /* Fixed height */
   }
   
   .task-column h3 {
     text-align: center;
     background-color: #f4f4f4;
     padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-column-content {
+    flex: 1; /* Allow scrolling for overflow */
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .task-column-content::-webkit-scrollbar {
+    width: 8px; /* Scrollbar width */
+  }
+  
+  .task-column-content::-webkit-scrollbar-thumb {
+    background: #ccc; /* Scrollbar color */
+    border-radius: 4px;
+  }
+  
+  .task-column-content::-webkit-scrollbar-thumb:hover {
+    background: #aaa; /* Hover effect */
   }
   

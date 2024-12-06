@@ -1,0 +1,29 @@
+/* src/components/Header.css */
+
+/* src/components/Header.css */
+.app-header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.app-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+  

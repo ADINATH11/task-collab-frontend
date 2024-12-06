@@ -1,0 +1,11 @@
+/* src/styles/theme.css */
+
+:root {
+    --primary-color: #4caf50; /* Green primary color */
+    --primary-color-dark: #388e3c; /* Darker green for hover effects */
+    --primary-color-light: #c8e6c9; /* Lighter green for background */
+    --text-color: #ffffff; /* White text for contrast */
+    --background-color: #f1f8e9; /* Light greenish background */
+    --border-color: #a5d6a7; /* Subtle green for borders */
+  }
+  
